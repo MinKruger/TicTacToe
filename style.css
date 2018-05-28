@@ -1,0 +1,36 @@
+body{
+    background: url(img/background.png) center center no-repeat fixed;
+    background-size: cover;
+    padding-left: 29%;
+}
+
+#game{
+    width:603px;
+    height:600px;
+    border: solid 3px;
+    background-color: white;
+}
+ 
+#visual{
+    height:200px;
+    border-bottom:solid 1px;
+}
+ 
+.house{
+    width:200px;
+    height:100%;
+    border-right:solid 1px;
+    float:left;
+}
+
+#row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#title{
+    padding-left: 18%;
+    color: red;
+    font-size: 300%;
+}
