@@ -1,2 +1,2 @@
 # TicTacToe
-Another non-professional project
+Another non-professional project for university
